@@ -1,0 +1,13 @@
+{
+    "data":[{
+        "url":"https://automationexercise.com/",
+        "name":"lakshit",
+        "email":"slakshit45@gmail.com",
+        "subject":"ekkeke",
+        "message":"ekekeeek",
+        "file":"C:\\Users\\ASUS\\OneDrive\\Desktop\\Print _ Udyam Registration Certificate.pdf",
+        "product_list":["Blue Top", "Men Tshirt"],
+        "expected_product1":"{'product_name': 'Blue Top', 'price': 'Rs. 500', 'quantity': '1', 'total_price': 'Rs. 500'}" ,
+        "expected_product2":"{'product_name': 'Men Tshirt', 'price': 'Rs. 400', 'quantity': '1', 'total_price': 'Rs. 400'}"
+    }]
+}

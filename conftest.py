@@ -7,29 +7,29 @@ def pytest_addoption(parser):
         "--browser", action="store", default="edge", help="browser"
     )
 
-
 @pytest.fixture(scope="function")
 def browser_fixture(request):
-    global driver
-    browser = request.config.getoption("browser")
+    browser = request.config.getoption("--browser")
     if browser == "edge":
         option = webdriver.EdgeOptions()
+        option.add_argument("--start-maximized")
         option.add_argument("--headless")
         driver = webdriver.Edge(options=option)
 
     elif browser == "firefox":
         option = webdriver.FirefoxOptions()
+        option.add_argument("--start-maximized")
         option.add_argument("--headless")
         driver = webdriver.Firefox(options=option)
 
-
     elif browser == "chrome":
         option = webdriver.ChromeOptions()
-        option.add_argument("--headless")
+        option.add_argument("--start-maximized")
+        # option.add_argument("--headless")
         driver = webdriver.Chrome(options=option)
 
+    yield driver
 
-    yield driver 
 
 
 

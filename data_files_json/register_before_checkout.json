@@ -1,0 +1,26 @@
+{
+    "data":[{
+        "url":"https://automationexercise.com/",
+        "name":"Lakshit",
+        "email":"ekekeklelelelelell11@gmail.com",
+        "password":"ekelelel",
+        "day":11,
+        "month":"march",
+        "year":2000,
+        "first_name":"lakshit",
+        "last_name":"mahajan",
+        "company":"tlm",
+        "address":"ekeellele address 1",
+        "address2":"llelelele  address 2",
+        "country":"Australia",
+        "state":"ekeeelele",
+        "city":"ekelle",
+        "zipcode":30044,
+        "mobile": 240404040,
+        "comment":"eleelele",
+        "name_on_card":"lakshit",
+        "card_number":300040404,
+        "cvc":304,
+        "e":11
+    }]
+}
